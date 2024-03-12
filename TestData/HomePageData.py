@@ -15,5 +15,6 @@ class HomePageData:
             if sheet.cell(row=i, column=1).value == test_case_name:
                 for j in range(2, sheet.max_column + 1):  # to get columns
                     Dict[sheet.cell(row=1, column=j).value] = sheet.cell(row=i, column=j).value
+                    print("Test Git")
 
         return [Dict]
