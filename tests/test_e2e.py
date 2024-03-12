@@ -52,5 +52,9 @@ class TestOne(BaseClass):
 
         log.info("received text from app is: " + message)
         assert "Success! Thank you! " in message
+        print("ssfafdsfs")
+
+print("ssfafdsfs") #branch test
+
 
 
