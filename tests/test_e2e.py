@@ -57,4 +57,6 @@ class TestOne(BaseClass):
 print("ssfafdsfs") #branch test
 
 
-
+class GitDemo:
+    def gitDemoMergeConflict2(self):
+        pass
