@@ -47,6 +47,9 @@ class TestOne(BaseClass):
         message = confPage.alert_suc_message().text
         print(message)
 
+        print("askhfvkahvsjfva") #test git GitDemo project
+        print("ssfafdsfs")
+
         log.info("received text from app is: " + message)
         assert "Success! Thank you! " in message
 
